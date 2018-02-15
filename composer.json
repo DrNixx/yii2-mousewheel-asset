@@ -1,0 +1,25 @@
+{
+    "name": "drnixx/yii2-mousewheel-asset",
+    "description": "Yii2 Assets Bundle for jquery.mousewheel library",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.6",
+        "bower-asset/jquery-mousewheel": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Panteleeff",
+            "email": "drnix@chess-online.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "onix\\": "src/"
+        }
+    },
+     "config": {
+        "platform": {"php": "5.6"}
+    }
+}
