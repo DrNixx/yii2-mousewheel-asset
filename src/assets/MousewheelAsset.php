@@ -1,9 +1,9 @@
 <?php
 namespace onix\assets;
 
-use yii\web\AssetBundle;
+use yii\web\AssetBundle as YiiAssetBundle;
 
-class MousewheelAsset extends AssetBundle
+class MousewheelAsset extends YiiAssetBundle
 {
     public $sourcePath = '@bower/jquery-mousewheel';
 
